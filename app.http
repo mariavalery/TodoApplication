@@ -1,1 +1,11 @@
-GET http://localhost:3000/todos
+
+GET http://localhost:3000/todos/
+content-type=application/json
+GET http://localhost:3000/todos/?category=WORK&status=DONE
+content-type=application/json
+GET http://localhost:3000/todos/2/
+content-type=application/json
+GET http://localhost:3000/agenda/?date=1996-8-26
+content-type=application/json
+POST http://localhost:3000/todos/
+content-type=application/json
